@@ -1,11 +1,35 @@
-#### Project Overview: Sentiment Analysis System
+# Sentiment Analysis & Text Classification
 
-This project focused on developing a sentiment analysis system to classify the polarity of text as positive, negative, or neutral. It provided a practical opportunity to apply text classification techniques and sentiment analysis, aligning with key Course Learning Outcomes.
+This repository contains an implementation of a sentiment analysis system using Natural Language Processing (NLP) techniques. The project aims to analyze textual data to determine the sentiment expressed, such as positive, negative, or neutral sentiments.
 
-#### Results and Insights
+## Overview
+Sentiment analysis, also known as opinion mining, is a key application of NLP that extracts subjective information from the text to gauge emotions, opinions, or attitudes. This project demonstrates building and evaluating a sentiment analysis model using machine learning and deep learning techniques. It focuses on the preprocessing of textual data, feature extraction, and the training of classifiers to predict sentiment labels.
 
-The sentiment analysis system successfully classified the polarity of text with high accuracy. The project demonstrated the effectiveness of combining supervised and unsupervised learning techniques for sentiment analysis. It also highlighted the importance of text pre-processing and feature extraction in NLP tasks.
+Key aspects of this project include:
+- Text preprocessing techniques such as tokenization, lemmatization, and stop-word removal.
+- Feature extraction methods including TF-IDF and word embeddings.
+- Implementation of machine learning models such as Logistic Regression and Naive Bayes.
+- Comparison of performance metrics to evaluate model effectiveness.
 
-#### Conclusion
+This project provides a practical foundation for understanding sentiment analysis and applying it to real-world datasets.
 
-This project provided valuable hands-on experience in applying NLP concepts and algorithms to real-world problems. It showcased the practical use of existing NLP tools to implement sentiment analysis, question-answering, and text summarization. By decomposing complex NLP problems into sub-problems, I was able to develop robust solutions.
+## Features
+- **Text Preprocessing:** Tokenization, lemmatization, and removal of stop words to prepare clean textual data.
+- **Feature Engineering:** Implementation of TF-IDF vectorization and word embeddings for text representation.
+- **Model Training:** Training and evaluation of machine learning models like Logistic Regression, Naive Bayes, and Support Vector Machines.
+- **Evaluation Metrics:** Use of precision, recall, F1-score, and confusion matrices to assess model performance.
+
+
+## Dataset
+This project uses a dataset of labelled textual data for sentiment analysis, such as movie reviews or product reviews. You can use publicly available datasets like IMDB, Twitter Sentiment Analysis Dataset, or any custom dataset in CSV or JSON format. Ensure the dataset is structured with text and sentiment labels.
+
+## Results
+The project demonstrates the successful implementation of sentiment analysis techniques, including:
+- Effective text preprocessing and feature engineering pipelines.
+- High-performing models evaluated using metrics such as accuracy, precision, and recall.
+- Visualizations of results such as confusion matrices and performance curves.
+
+## Acknowledgments
+- This project was done during my master's degree from the University of Adelaide.
+
+
